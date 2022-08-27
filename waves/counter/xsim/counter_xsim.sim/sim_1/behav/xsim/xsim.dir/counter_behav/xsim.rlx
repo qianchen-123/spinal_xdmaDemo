@@ -1,0 +1,12 @@
+
+{ 
+    crc :  6406019762965860172  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot counter_behav xil_defaultlib.counter xil_defaultlib.glbl -dll" , 
+    buildDate : "Oct 19 2021" , 
+    buildTime : "03:16:22" , 
+    linkCmd : "E:\\xilinx\\Vivado\\2021.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -DNT  -O -shared -Wl,--exclude-symbols,libhsimengine_NULL_THUNK_DATA -Wl,--stack,104857600 -o \"xsim.dir/counter_behav/xsimk.dll\"   \"xsim.dir/counter_behav/obj/xsim_0.win64.obj\" \"xsim.dir/counter_behav/obj/xsim_1.win64.obj\" -L\"E:\\xilinx\\Vivado\\2021.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

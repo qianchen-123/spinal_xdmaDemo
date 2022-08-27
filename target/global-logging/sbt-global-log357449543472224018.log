@@ -1,0 +1,5 @@
+[debug] > Exec(testOnly *.CounterTester, None, None)
+[debug] Evaluating tasks: Test / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] CounterTester:
+[info] - compile

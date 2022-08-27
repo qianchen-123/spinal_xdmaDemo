@@ -1,0 +1,15 @@
+[debug] javaOptions: Vector()
+[debug] Forking tests - parallelism = false
+[debug] Create a single-thread test executor
+[debug] Runner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.
+[debug]   Running TaskDef(xdma.xdmaTester, sbt.ForkMain$SubclassFingerscan@4ca8195f, false, [SuiteSelector])
+[info] xdmaTester:
+[info] - compile
+[debug]     Produced 0 nested tasks and 1 events.
+[info] Run completed in 3 minutes, 7 seconds.
+[info] Total number of tests run: 1
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] Passed tests:
+[debug] 	xdma.xdmaTester

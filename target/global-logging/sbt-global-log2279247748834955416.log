@@ -1,0 +1,16 @@
+[debug] > Exec(testOnly *xdmaTester, None, None)
+[debug] Evaluating tasks: Test / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\zzz\Desktop\spinal_xdmaDemo\target\scala-2.11\classes ...
+[info] done compiling
+[info] compiling 1 Scala source to C:\Users\zzz\Desktop\spinal_xdmaDemo\target\scala-2.11\test-classes ...
+[info] done compiling
+[info] xdmaTester:
+[info] - compile
+[info] Run completed in 3 minutes, 7 seconds.
+[info] Total number of tests run: 1
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 192 s (03:12), completed 2022-8-27 17:44:10
+[debug] > Exec(idea-shell, None, None)

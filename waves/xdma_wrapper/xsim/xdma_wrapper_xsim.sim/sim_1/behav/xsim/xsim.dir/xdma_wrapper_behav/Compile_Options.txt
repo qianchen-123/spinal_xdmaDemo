@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "blk_mem_gen_v8_4_5" -L "fifo_generator_v13_1_4" -L "xdma_v4_1_14" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "xdma_wrapper_behav" "xil_defaultlib.xdma_wrapper" "xil_defaultlib.glbl" -log "elaborate.log" -dll 

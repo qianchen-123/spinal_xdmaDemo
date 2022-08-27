@@ -1,0 +1,4 @@
+Running: xsim.dir/counter_behav/xsimk.dll -nolog -wdb test.wdb
+Design successfully loaded
+Design Loading Memory Usage: 138084 KB (Peak: 138084 KB)
+Design Loading CPU Usage: 1671 ms

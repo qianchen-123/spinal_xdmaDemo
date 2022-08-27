@@ -1,0 +1,142 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\zzz\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\zzz\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.1 (Oracle Corporation Java 1.8.0_202)
+[debug]       Load.loadUnit: plugins took 138.3807ms
+[debug]       Load.loadUnit: defsScala took 0.2356ms
+[debug] [Loading] Scanning directory C:\Users\zzz\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\zzz\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 10.66 ms
+[debug]           Load.resolveProject(global-plugins) took 31.1748ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\zzz\.sbt\1.0\plugins, plugins: List(<none>))) took 58.2976ms
+[debug] [Loading] Done in C:\Users\zzz\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 74.4006ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.1761ms
+[debug]     Load.loadUnit(file:/C:/Users/zzz/.sbt/1.0/plugins/, ...) took 219.0047ms
+[debug]   Load.apply: load took 322.9171ms
+[debug]   Load.apply: resolveProjects took 4.1879ms
+[debug]   Load.apply: finalTransforms took 41.4797ms
+[debug]   Load.apply: config.delegates took 5.3379ms
+[debug]   Load.apply: Def.make(settings)... took 227.5416ms
+[debug]   Load.apply: structureIndex took 62.1194ms
+[debug]   Load.apply: mkStreams took 1.1549ms
+[info] loading global plugins from C:\Users\zzz\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 1399.3086ms
+[debug]           Load.loadUnit: plugins took 18.182ms
+[debug]           Load.loadUnit: defsScala took 0.0029ms
+[debug] [Loading] Scanning directory C:\Users\zzz\Desktop\spinal_xdmaDemo\project
+[debug]             Load.loadUnit: mkEval took 5.2995ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\zzz\Desktop\spinal_xdmaDemo\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.3142 ms
+[info] loading settings for project spinal_xdmademo-build from idea.sbt ...
+[debug]               Load.resolveProject(spinal_xdmademo-build) took 1.8907ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spinal_xdmademo-build, base: C:\Users\zzz\Desktop\spinal_xdmaDemo\project, plugins: List(<none>))) took 3.5699ms
+[debug] [Loading] Done in C:\Users\zzz\Desktop\spinal_xdmaDemo\project, returning: (spinal_xdmademo-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 94.0242ms
+[debug]           Load.loadUnit: cleanEvalClasses took 2.3992ms
+[debug]         Load.loadUnit(file:/C:/Users/zzz/Desktop/spinal_xdmaDemo/project/, ...) took 115.2197ms
+[debug]       Load.apply: load took 115.9791ms
+[debug]       Load.apply: resolveProjects took 0.0941ms
+[debug]       Load.apply: finalTransforms took 5.1389ms
+[debug]       Load.apply: config.delegates took 0.2025ms
+[debug]       Load.apply: Def.make(settings)... took 65.9807ms
+[debug]       Load.apply: structureIndex took 16.4782ms
+[debug]       Load.apply: mkStreams took 0.0027ms
+[info] loading project definition from C:\Users\zzz\Desktop\spinal_xdmaDemo\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 356.0362ms
+[debug]     Load.loadUnit: defsScala took 0.0023ms
+[debug] [Loading] Scanning directory C:\Users\zzz\Desktop\spinal_xdmaDemo
+[debug]       Load.loadUnit: mkEval took 0.1856ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\zzz\Desktop\spinal_xdmaDemo, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.7217 ms
+[info] loading settings for project spinal_xdmademo from build.sbt ...
+[debug]         Load.resolveProject(spinal_xdmademo) took 21.4662ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id spinal_xdmademo, base: C:\Users\zzz\Desktop\spinal_xdmaDemo, plugins: List(<none>))) took 23.9475ms
+[debug] [Loading] Done in C:\Users\zzz\Desktop\spinal_xdmaDemo, returning: (spinal_xdmademo)
+[debug]     Load.loadUnit: loadedProjectsRaw took 83.2853ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.6077ms
+[debug]   Load.loadUnit(file:/C:/Users/zzz/Desktop/spinal_xdmaDemo/, ...) took 442.4095ms
+[debug] Load.apply: load took 443.4886ms
+[debug] Load.apply: resolveProjects took 0.0841ms
+[debug] Load.apply: finalTransforms took 14.301ms
+[debug] Load.apply: config.delegates took 0.1677ms
+[debug] Load.apply: Def.make(settings)... took 49.9265ms
+[debug] Load.apply: structureIndex took 20.4381ms
+[debug] Load.apply: mkStreams took 0.0024ms
+[info] set current project to spinal_xdmaDemo (in build file:/C:/Users/zzz/Desktop/spinal_xdmaDemo/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 51403 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 51403, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to spinal_xdmaDemo (in build file:/C:/Users/zzz/Desktop/spinal_xdmaDemo/)
+[debug] > Exec(idea-shell, None, None)

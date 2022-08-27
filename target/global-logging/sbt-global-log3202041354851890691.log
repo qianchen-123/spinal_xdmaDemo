@@ -1,0 +1,8 @@
+[debug] > Exec(runMain xdma.xdmaMain, None, None)
+[debug] Evaluating tasks: Compile / runMain
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\zzz\Desktop\spinal_xdmaDemo\target\scala-2.11\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[success] Total time: 3 s, completed 2022-8-27 15:31:50
+[debug] > Exec(idea-shell, None, None)

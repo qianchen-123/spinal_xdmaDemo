@@ -1,0 +1,30 @@
+[debug] > Exec(testOnly *.CounterTester, None, None)
+[debug] Evaluating tasks: Test / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\zzz\Desktop\spinal_xdmaDemo\target\scala-2.11\classes ...
+[info] done compiling
+[info] CounterTester:
+[info] - compile
+[info] - testbench *** FAILED ***
+[info]   java.lang.Exception: ISim engine error: Failed to Load up XSI.
+[info]   at spinal.sim.xsi.JNIXSIIfaceJNI.new_XSIIface(Native Method)
+[info]   at spinal.sim.xsi.XSIIface.<init>(XSIIface.java:40)
+[info]   at spinal.sim.XSimBackend.getInterface(XSimBackend.scala:312)
+[info]   at spinal.sim.SimXSim.<init>(SimXSim.scala:9)
+[info]   at spinal.core.sim.SpinalSimConfig$$anon$8.newSimRaw(SimBootstraps.scala:1005)
+[info]   at spinal.core.sim.SimCompiled.doSimApi(SimBootstraps.scala:521)
+[info]   at spinal.core.sim.SimCompiled.doSim(SimBootstraps.scala:498)
+[info]   at counter.CounterTester$$anonfun$2.apply$mcV$sp(CounterTester.scala:20)
+[info]   at counter.CounterTester$$anonfun$2.apply(CounterTester.scala:20)
+[info]   at counter.CounterTester$$anonfun$2.apply(CounterTester.scala:20)
+[info]   ...
+[info] Run completed in 27 seconds, 509 milliseconds.
+[info] Total number of tests run: 2
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 1, failed 1, canceled 0, ignored 0, pending 0
+[info] *** 1 TEST FAILED ***
+[error] Failed tests:
+[error] 	counter.CounterTester
+[error] (Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 33 s, completed 2022-8-27 14:33:26
+[debug] > Exec(idea-shell, None, None)

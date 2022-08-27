@@ -1,0 +1,42 @@
+[debug] > Exec(testOnly *.CounterTester, None, None)
+[debug] Evaluating tasks: Test / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\zzz\Desktop\spinal_xdmaDemo\target\scala-2.11\test-classes ...
+[info] done compiling
+[info] CounterTester:
+[info] - compile *** FAILED ***
+[info]   java.lang.AssertionError: assertion failed: VIVADO_HOME not found! Setup your vivado environment first.
+[info]   at scala.Predef$.assert(Predef.scala:170)
+[info]   at spinal.sim.XSimBackend.<init>(XSimBackend.scala:87)
+[info]   at spinal.core.sim.SpinalXSimBackend$Backend.<init>(SimBootstraps.scala:412)
+[info]   at spinal.core.sim.SpinalXSimBackend$.apply(SimBootstraps.scala:450)
+[info]   at spinal.core.sim.SpinalSimConfig.compile(SimBootstraps.scala:1002)
+[info]   at spinal.core.sim.SpinalSimConfig.compileCloned(SimBootstraps.scala:830)
+[info]   at spinal.core.sim.SpinalSimConfig.compile(SimBootstraps.scala:807)
+[info]   at counter.CounterTester$$anonfun$1.apply$mcV$sp(CounterTester.scala:16)
+[info]   at counter.CounterTester$$anonfun$1.apply(CounterTester.scala:16)
+[info]   at counter.CounterTester$$anonfun$1.apply(CounterTester.scala:16)
+[info]   ...
+[info] - testbench *** FAILED ***
+[info]   java.lang.NullPointerException:
+[info]   at counter.CounterTester$$anonfun$2.apply$mcV$sp(CounterTester.scala:20)
+[info]   at counter.CounterTester$$anonfun$2.apply(CounterTester.scala:20)
+[info]   at counter.CounterTester$$anonfun$2.apply(CounterTester.scala:20)
+[info]   at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:20)
+[info]   at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:166)
+[info]   at org.scalatest.Suite$class.withFixture(Suite.scala:1122)
+[info]   ...
+[info] Run completed in 1 second, 632 milliseconds.
+[info] Total number of tests run: 2
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 0, failed 2, canceled 0, ignored 0, pending 0
+[info] *** 2 TESTS FAILED ***
+[error] Failed tests:
+[error] 	counter.CounterTester
+[error] (Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 5 s, completed 2022-8-27 11:30:12
+[debug] > Exec(idea-shell, None, None)

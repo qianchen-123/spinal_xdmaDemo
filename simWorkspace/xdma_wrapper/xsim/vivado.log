@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Aug 27 17:22:33 2022
+# Process ID: 6232
+# Current directory: C:/Users/zzz/Desktop/spinal_xdmaDemo/simWorkspace/xdma_wrapper/xsim
+# Command line: vivado.exe -mode batch -source C:/Users/zzz/Desktop/spinal_xdmaDemo/./simWorkspace/xdma_wrapper/xsim/spinal_xsim.tcl
+# Log file: C:/Users/zzz/Desktop/spinal_xdmaDemo/simWorkspace/xdma_wrapper/xsim/vivado.log
+# Journal file: C:/Users/zzz/Desktop/spinal_xdmaDemo/simWorkspace/xdma_wrapper/xsim\vivado.jou
+# Running On: kncycltrbbo, OS: Windows, CPU Frequency: 3700 MHz, CPU Physical cores: 24, Host memory: 68641 MB
+#-----------------------------------------------------------
+source C:/Users/zzz/Desktop/spinal_xdmaDemo/./simWorkspace/xdma_wrapper/xsim/spinal_xsim.tcl
+# proc findFiles { basedir pattern } {
+# 
+#    # Fix the directory name, this ensures the directory name is in the
+#    # native format for the platform and contains a final directory seperator
+#    set basedir [string trimright [file join [file normalize $basedir] { }]]
+#    set fileList {}
+# 
+#    # Look in the current directory for matching files, -type {f r}
+#    # means ony readable normal files are looked at, -nocomplain stops
+#    # an error being thrown if the returned list is empty
+#    foreach fileName [glob -nocomplain -type {f r} -path $basedir $pattern] {
+#        lappend fileList $fileName
+#    }
+# 
+#    # Now look for any sub direcories in the current directory
+#    foreach dirName [glob -nocomplain -type {d  r} -path $basedir *] {
+#        # Recusively call the routine on the sub directory and append any
+#        # new files to the results
+#        set subDirList [findFiles $dirName $pattern]
+#        if { [llength $subDirList] > 0 } {
+#            foreach subDirFile $subDirList {
+#                lappend fileList $subDirFile
+#            }
+#        }
+#    }
+#    return $fileList
+# }
+# create_project -force xdma_wrapper_xsim
+# import_files -force C:/Users/zzz/Desktop/spinal_xdmaDemo/tmp/job_1/xdma_wrapper.v
+# import_files -force -quiet [findFiles C:/Users/zzz/Desktop/spinal_xdmaDemo/xilinx_ip/xc7k70tfbv676-1 *.xci]
+# import_files -force -quiet [findFiles C:/Users/zzz/Desktop/spinal_xdmaDemo *.bd]
+# update_compile_order -fileset sources_1
+# set_property top xdma_wrapper [get_fileset sim_1]
+# launch_simulation -scripts_only
+Command: launch_simulation  -scripts_only
+INFO: [Vivado 12-12492] Generating simulation scripts for 'XSim' simulator.
+INFO: [Vivado 12-12493] Simulation top is 'xdma_wrapper'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'xdma_0'...
+INFO: [Vivado 12-5680] Creating behavioral simulation scripts in 'C:/Users/zzz/Desktop/spinal_xdmaDemo/simWorkspace/xdma_wrapper/xsim/xdma_wrapper_xsim.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/xilinx/Vivado/2021.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/zzz/Desktop/spinal_xdmaDemo/simWorkspace/xdma_wrapper/xsim/xdma_wrapper_xsim.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'xdma_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-60] Script generated:C:/Users/zzz/Desktop/spinal_xdmaDemo/simWorkspace/xdma_wrapper/xsim/xdma_wrapper_xsim.sim/sim_1/behav/xsim/compile.bat
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-60] Script generated:C:/Users/zzz/Desktop/spinal_xdmaDemo/simWorkspace/xdma_wrapper/xsim/xdma_wrapper_xsim.sim/sim_1/behav/xsim/elaborate.bat
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-60] Script generated:C:/Users/zzz/Desktop/spinal_xdmaDemo/simWorkspace/xdma_wrapper/xsim/xdma_wrapper_xsim.sim/sim_1/behav/xsim/simulate.bat
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1261.609 ; gain = 0.000
+# close_project
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 27 17:22:54 2022...

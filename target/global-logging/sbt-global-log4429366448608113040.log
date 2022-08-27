@@ -1,0 +1,40 @@
+[debug] > Exec(testOnly *.CounterTester, None, None)
+[debug] Evaluating tasks: Test / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] CounterTester:
+[info] - compile *** FAILED ***
+[info]   java.io.FileNotFoundException: waves\counter\verilator\verilator_1.dll (另一个程序正在使用此文件，进程无法访问。)
+[info]   at java.io.FileOutputStream.open0(Native Method)
+[info]   at java.io.FileOutputStream.open(FileOutputStream.java:270)
+[info]   at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+[info]   at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+[info]   at org.apache.commons.io.FileUtils.doCopyFile(FileUtils.java:1139)
+[info]   at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1091)
+[info]   at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)
+[info]   at spinal.sim.VerilatorBackend$$anonfun$compileVerilator$2.apply$mcV$sp(VerilatorBackend.scala:641)
+[info]   at spinal.sim.VerilatorBackend.cacheSynchronized(VerilatorBackend.scala:74)
+[info]   at spinal.sim.VerilatorBackend.compileVerilator(VerilatorBackend.scala:600)
+[info]   ...
+[info] - testbench *** FAILED ***
+[info]   java.lang.NullPointerException:
+[info]   at counter.CounterTester$$anonfun$2.apply$mcV$sp(CounterTester.scala:20)
+[info]   at counter.CounterTester$$anonfun$2.apply(CounterTester.scala:20)
+[info]   at counter.CounterTester$$anonfun$2.apply(CounterTester.scala:20)
+[info]   at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:20)
+[info]   at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:166)
+[info]   at org.scalatest.Suite$class.withFixture(Suite.scala:1122)
+[info]   ...
+[info] Run completed in 2 seconds, 910 milliseconds.
+[info] Total number of tests run: 2
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 0, failed 2, canceled 0, ignored 0, pending 0
+[info] *** 2 TESTS FAILED ***
+[error] Failed tests:
+[error] 	counter.CounterTester
+[error] (Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 3 s, completed 2022-8-27 11:12:01
+[debug] > Exec(idea-shell, None, None)

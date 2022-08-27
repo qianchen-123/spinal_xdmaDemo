@@ -1,0 +1,51 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\zzz\Desktop\spinal_xdmaDemo\target\scala-2.11\classes.bak
+[debug] About to delete class files:
+[debug] 	xdma_0.class
+[debug] 	xdmaMain$.class
+[debug] 	xdma_0$.class
+[debug] 	xdmaVivado$delayedInit$body.class
+[debug] 	pcie_mgt_bundle$.class
+[debug] 	pcie_cfg_mgmt_bundle$.class
+[debug] 	xdmaVivado$.class
+[debug] 	pcie_mgt_bundle.class
+[debug] 	pcie_cfg_mgmt_bundle.class
+[debug] 	xdmaVivado$$anonfun$2.class
+[debug] 	xdma_0$$anonfun$xdma$xdma_0$$renameIO$1.class
+[debug] 	xdmaMain$$anonfun$main$1.class
+[debug] 	xdma_0$$anon$1.class
+[debug] 	xdmaVivado.class
+[debug] 	xdmaMain.class
+[debug] 	xdmaVivado$$anonfun$1.class
+[debug] 	xdma_0$$anonfun$1.class
+[debug] We backup class files:
+[debug] 	xdma_0.class
+[debug] 	xdmaMain$.class
+[debug] 	xdma_0$.class
+[debug] 	xdmaVivado$delayedInit$body.class
+[debug] 	pcie_mgt_bundle$.class
+[debug] 	pcie_cfg_mgmt_bundle$.class
+[debug] 	xdmaVivado$.class
+[debug] 	pcie_mgt_bundle.class
+[debug] 	pcie_cfg_mgmt_bundle.class
+[debug] 	xdmaVivado$$anonfun$2.class
+[debug] 	xdma_0$$anonfun$xdma$xdma_0$$renameIO$1.class
+[debug] 	xdmaMain$$anonfun$main$1.class
+[debug] 	xdma_0$$anon$1.class
+[debug] 	xdmaVivado.class
+[debug] 	xdmaMain.class
+[debug] 	xdmaVivado$$anonfun$1.class
+[debug] 	xdma_0$$anonfun$1.class
+[debug] Registering generated classes:
+[debug] 	xdma_0.class
+[debug] 	xdmaMain$.class
+[debug] 	xdma_0$.class
+[debug] 	pcie_mgt_bundle$.class
+[debug] 	pcie_cfg_mgmt_bundle$.class
+[debug] 	pcie_mgt_bundle.class
+[debug] 	pcie_cfg_mgmt_bundle.class
+[debug] 	xdma_0$$anonfun$xdma$xdma_0$$renameIO$1.class
+[debug] 	xdmaMain$$anonfun$main$1.class
+[debug] 	xdma_0$$anon$1.class
+[debug] 	xdmaMain.class
+[debug] 	xdma_0$$anonfun$1.class
+[debug] Removing the temporary directory used for backing up class files: C:\Users\zzz\Desktop\spinal_xdmaDemo\target\scala-2.11\classes.bak

@@ -1,0 +1,7 @@
+[debug] > Exec(runMain counterDemo, None, None)
+[debug] Evaluating tasks: Compile / runMain
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\zzz\Desktop\spinal_xdmaDemo\target\scala-2.11\classes ...
+[info] done compiling
+[success] Total time: 2 s, completed 2022-8-27 9:17:27
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,125 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_clock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pipe_clock
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_eq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pipe_eq
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_drp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pipe_drp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_rate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pipe_rate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pipe_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pipe_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gtp_pipe_rate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_gtp_pipe_rate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gtp_pipe_drp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_gtp_pipe_drp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gtp_pipe_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_gtp_pipe_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_user.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pipe_user
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pipe_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_qpll_drp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_qpll_drp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_qpll_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_qpll_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_qpll_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_qpll_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_rxeq_scan.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_rxeq_scan
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pcie_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_core_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_core_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_rx_null_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_axi_basic_rx_null_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_rx_pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_axi_basic_rx_pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_axi_basic_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_axi_basic_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_tx_pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_axi_basic_tx_pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_tx_thrtl_ctl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_axi_basic_tx_thrtl_ctl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_axi_basic_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_7x.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pcie_7x
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_bram_7x.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pcie_bram_7x
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_bram_top_7x.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pcie_bram_top_7x
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_brams_7x.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pcie_brams_7x
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_pipe_lane.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pcie_pipe_lane
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_pipe_misc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pcie_pipe_misc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_pipe_pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pcie_pipe_pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gt_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_gt_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gt_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_gt_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gtp_cpllpd_ovrd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_gtp_cpllpd_ovrd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gtx_cpllpd_ovrd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_gtx_cpllpd_ovrd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gt_rx_valid_filter_7x.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_gt_rx_valid_filter_7x
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gt_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_gt_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie2_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip_pcie2_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_0/sim/xdma_0_pcie2_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_1/sim/xdma_v4_1_14_blk_mem_64_reg_be.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_14_blk_mem_64_reg_be
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_2/sim/xdma_v4_1_14_blk_mem_64_noreg_be.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_14_blk_mem_64_noreg_be
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_3/sim/pcie2_fifo_generator_dma_cpl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie2_fifo_generator_dma_cpl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/ip_4/sim/pcie2_fifo_generator_tgt_brdg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie2_fifo_generator_tgt_brdg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_dma_cpl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_dma_cpl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_dma_req.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_dma_req
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_rx_destraddler.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_rx_destraddler
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_rx_demux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_rx_demux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_tgt_cpl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_tgt_cpl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_tgt_req.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_tgt_req
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_tx_mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_tx_mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_axi_stream_intf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_axi_stream_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_cfg_sideband.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_cfg_sideband
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_pcie2_to_pcie3_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_pcie2_to_pcie3_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_dma_bram_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_14_dma_bram_wrap
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_14_dma_fifo_64x512_wrap
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_14_mem_simple_dport_bram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_dma_bram_wrap_1024.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_14_dma_bram_wrap_1024
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_dma_bram_wrap_2048.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_14_dma_bram_wrap_2048
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_core_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0_core_top
+INFO: [VRFC 10-2458] undeclared symbol cfg_config_space_enable, assumed default net type wire [C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_core_top.sv:4301]
+INFO: [VRFC 10-2458] undeclared symbol cfg_hot_reset_in, assumed default net type wire [C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_core_top.sv:4302]
+INFO: [VRFC 10-2458] undeclared symbol usr_irq_fail, assumed default net type wire [C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_core_top.sv:4787]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/xdma_0/sim/xdma_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.srcs/sources_1/imports/job_1/xdma_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

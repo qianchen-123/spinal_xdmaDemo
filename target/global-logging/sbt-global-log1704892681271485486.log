@@ -1,0 +1,12 @@
+[debug] > Exec(testOnly *.CounterTester, None, None)
+[debug] Evaluating tasks: Test / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\zzz\Desktop\spinal_xdmaDemo\target\scala-2.11\test-classes ...
+[info] done compiling
+[info] CounterTester:
+[info] - compile
+[warn] Canceling execution...
+[error] Cancelled: testOnly *.CounterTester
+[error] Cancelled: testOnly *.CounterTester
+[error] Use 'last' for the full log.
+[debug] > Exec(idea-shell, None, None)
