@@ -1,5 +1,6 @@
 // Generator : SpinalHDL v1.7.2    git head : 08fc866bebdc40c471ebe327bface63e34406489
 // Component : xdma_wrapper
+// Git hash  : 19770d74bb8243c6b650cc5a39b638b6b4dffe70
 
 `timescale 1ns/1ps
 
@@ -12,8 +13,6 @@ module xdma_wrapper (
   input      [31:0]   io_cfg_mgmt_write_data,
   input               io_cfg_mgmt_write,
   input               io_cfg_mgmt_type1_cfg_reg_access,
-  input               io_sys_clk,
-  input               io_sys_rst_n,
   output              io_user_lnk_up,
   input      [3:0]    io_pci_exp_rxn,
   input      [3:0]    io_pci_exp_rxp,
@@ -59,9 +58,12 @@ module xdma_wrapper (
   input      [31:0]   io_m_axi_r_payload_data,
   input      [3:0]    io_m_axi_r_payload_id,
   input      [1:0]    io_m_axi_r_payload_resp,
-  input               io_m_axi_r_payload_last
+  input               io_m_axi_r_payload_last,
+  input               reset,
+  input               clk
 );
 
+  wire                xdma_0_1_sys_rst_n;
   wire       [31:0]   xdma_0_1_cfg_mgmt_read_data;
   wire                xdma_0_1_cfg_mgmt_read_write_done;
   wire                xdma_0_1_user_lnk_up;
@@ -106,8 +108,8 @@ module xdma_wrapper (
     .cfg_mgmt_write_data           (io_cfg_mgmt_write_data[31:0]     ), //i
     .cfg_mgmt_write                (io_cfg_mgmt_write                ), //i
     .cfg_mgmt_type1_cfg_reg_access (io_cfg_mgmt_type1_cfg_reg_access ), //i
-    .sys_clk                       (io_sys_clk                       ), //i
-    .sys_rst_n                     (io_sys_rst_n                     ), //i
+    .sys_clk                       (clk                              ), //i
+    .sys_rst_n                     (xdma_0_1_sys_rst_n               ), //i
     .user_lnk_up                   (xdma_0_1_user_lnk_up             ), //o
     .pci_exp_rxn                   (io_pci_exp_rxn[3:0]              ), //i
     .pci_exp_rxp                   (io_pci_exp_rxp[3:0]              ), //i
@@ -155,6 +157,7 @@ module xdma_wrapper (
     .m_axi_rresp                   (io_m_axi_r_payload_resp[1:0]     ), //i
     .m_axi_rlast                   (io_m_axi_r_payload_last          )  //i
   );
+  assign xdma_0_1_sys_rst_n = (! reset);
   assign io_cfg_mgmt_read_data = xdma_0_1_cfg_mgmt_read_data;
   assign io_cfg_mgmt_read_write_done = xdma_0_1_cfg_mgmt_read_write_done;
   assign io_user_lnk_up = xdma_0_1_user_lnk_up;

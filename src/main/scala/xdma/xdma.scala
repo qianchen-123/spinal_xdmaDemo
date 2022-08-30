@@ -26,10 +26,10 @@ case class pcie_cfg_mgmt_bundle() extends Bundle with IMasterSlave{
 }
 
 case class pcie_mgt_bundle() extends Bundle with IMasterSlave{
-  val rxn = Bits(4 bits)
-  val rxp = Bits(4 bits)
-  val txn = Bits(4 bits)
-  val txp = Bits(4 bits)
+  val rxn = Bits(1 bits)
+  val rxp = Bits(1 bits)
+  val txn = Bits(1 bits)
+  val txp = Bits(1 bits)
   override def asMaster(): Unit = {
     out(rxn,rxp)
     in(txn,txp)
@@ -37,7 +37,7 @@ case class pcie_mgt_bundle() extends Bundle with IMasterSlave{
 }
 
 
-case class xdma_0(axi_cfg : Axi4Config) extends BlackBox{
+case class xdma(axi_cfg : Axi4Config) extends BlackBox{
   //TODO define Generics
   //TODO define IO
   val io = new Bundle{
@@ -79,10 +79,8 @@ case class xdma_0(axi_cfg : Axi4Config) extends BlackBox{
   }
 
   addPrePopTask(() => renameIO())
+  this.setDefinitionName("xdma_0")
+  mapClockDomain(clock = io.sys_clk,reset = io.sys_rst_n,resetActiveLevel = LOW)
 
-  // TODO define ClockDomains mappings
-  //  mapClockDomain(clock = io.sys_clk,reset = io.sys_rst_n,resetActiveLevel = LOW)
-  //  mapClockDomain(clock = io.sys_clk_gt,reset = io.sys_rst_n,resetActiveLevel = LOW)
-  //  mapClockDomain(clock = io.axi_aclk)
 
 }

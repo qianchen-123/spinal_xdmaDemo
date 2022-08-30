@@ -1,5 +1,6 @@
 // Generator : SpinalHDL v1.7.2    git head : 08fc866bebdc40c471ebe327bface63e34406489
 // Component : xdma_wrapper
+// Git hash  : 19770d74bb8243c6b650cc5a39b638b6b4dffe70
 
 `timescale 1ns/1ps
 
@@ -12,13 +13,11 @@ module xdma_wrapper (
   input      [31:0]   io_cfg_mgmt_write_data,
   input               io_cfg_mgmt_write,
   input               io_cfg_mgmt_type1_cfg_reg_access,
-  input               io_sys_clk,
-  input               io_sys_rst_n,
   output              io_user_lnk_up,
-  input      [3:0]    io_pci_exp_rxn,
-  input      [3:0]    io_pci_exp_rxp,
-  output     [3:0]    io_pci_exp_txn,
-  output     [3:0]    io_pci_exp_txp,
+  input      [0:0]    io_pci_exp_rxn,
+  input      [0:0]    io_pci_exp_rxp,
+  output     [0:0]    io_pci_exp_txn,
+  output     [0:0]    io_pci_exp_txp,
   output              io_axi_aclk,
   output              io_axi_aresetn,
   input      [0:0]    io_usr_irq_req,
@@ -27,7 +26,7 @@ module xdma_wrapper (
   output     [2:0]    io_msi_vector_width,
   output              io_m_axi_aw_valid,
   input               io_m_axi_aw_ready,
-  output     [31:0]   io_m_axi_aw_payload_addr,
+  output     [63:0]   io_m_axi_aw_payload_addr,
   output     [3:0]    io_m_axi_aw_payload_id,
   output     [7:0]    io_m_axi_aw_payload_len,
   output     [2:0]    io_m_axi_aw_payload_size,
@@ -37,8 +36,8 @@ module xdma_wrapper (
   output     [2:0]    io_m_axi_aw_payload_prot,
   output              io_m_axi_w_valid,
   input               io_m_axi_w_ready,
-  output     [31:0]   io_m_axi_w_payload_data,
-  output     [3:0]    io_m_axi_w_payload_strb,
+  output     [63:0]   io_m_axi_w_payload_data,
+  output     [7:0]    io_m_axi_w_payload_strb,
   output              io_m_axi_w_payload_last,
   input               io_m_axi_b_valid,
   output              io_m_axi_b_ready,
@@ -46,7 +45,7 @@ module xdma_wrapper (
   input      [1:0]    io_m_axi_b_payload_resp,
   output              io_m_axi_ar_valid,
   input               io_m_axi_ar_ready,
-  output     [31:0]   io_m_axi_ar_payload_addr,
+  output     [63:0]   io_m_axi_ar_payload_addr,
   output     [3:0]    io_m_axi_ar_payload_id,
   output     [7:0]    io_m_axi_ar_payload_len,
   output     [2:0]    io_m_axi_ar_payload_size,
@@ -56,24 +55,27 @@ module xdma_wrapper (
   output     [2:0]    io_m_axi_ar_payload_prot,
   input               io_m_axi_r_valid,
   output              io_m_axi_r_ready,
-  input      [31:0]   io_m_axi_r_payload_data,
+  input      [63:0]   io_m_axi_r_payload_data,
   input      [3:0]    io_m_axi_r_payload_id,
   input      [1:0]    io_m_axi_r_payload_resp,
-  input               io_m_axi_r_payload_last
+  input               io_m_axi_r_payload_last,
+  input               reset,
+  input               clk
 );
 
+  wire                xdma_0_1_sys_rst_n;
   wire       [31:0]   xdma_0_1_cfg_mgmt_read_data;
   wire                xdma_0_1_cfg_mgmt_read_write_done;
   wire                xdma_0_1_user_lnk_up;
-  wire       [3:0]    xdma_0_1_pci_exp_txn;
-  wire       [3:0]    xdma_0_1_pci_exp_txp;
+  wire       [0:0]    xdma_0_1_pci_exp_txn;
+  wire       [0:0]    xdma_0_1_pci_exp_txp;
   wire                xdma_0_1_axi_aclk;
   wire                xdma_0_1_axi_aresetn;
   wire       [0:0]    xdma_0_1_usr_irq_ack;
   wire                xdma_0_1_msi_enable;
   wire       [2:0]    xdma_0_1_msi_vector_width;
   wire                xdma_0_1_m_axi_arvalid;
-  wire       [31:0]   xdma_0_1_m_axi_araddr;
+  wire       [63:0]   xdma_0_1_m_axi_araddr;
   wire       [3:0]    xdma_0_1_m_axi_arid;
   wire       [7:0]    xdma_0_1_m_axi_arlen;
   wire       [2:0]    xdma_0_1_m_axi_arsize;
@@ -82,7 +84,7 @@ module xdma_wrapper (
   wire       [3:0]    xdma_0_1_m_axi_arcache;
   wire       [2:0]    xdma_0_1_m_axi_arprot;
   wire                xdma_0_1_m_axi_awvalid;
-  wire       [31:0]   xdma_0_1_m_axi_awaddr;
+  wire       [63:0]   xdma_0_1_m_axi_awaddr;
   wire       [3:0]    xdma_0_1_m_axi_awid;
   wire       [7:0]    xdma_0_1_m_axi_awlen;
   wire       [2:0]    xdma_0_1_m_axi_awsize;
@@ -91,8 +93,8 @@ module xdma_wrapper (
   wire       [3:0]    xdma_0_1_m_axi_awcache;
   wire       [2:0]    xdma_0_1_m_axi_awprot;
   wire                xdma_0_1_m_axi_wvalid;
-  wire       [31:0]   xdma_0_1_m_axi_wdata;
-  wire       [3:0]    xdma_0_1_m_axi_wstrb;
+  wire       [63:0]   xdma_0_1_m_axi_wdata;
+  wire       [7:0]    xdma_0_1_m_axi_wstrb;
   wire                xdma_0_1_m_axi_wlast;
   wire                xdma_0_1_m_axi_rready;
   wire                xdma_0_1_m_axi_bready;
@@ -106,13 +108,13 @@ module xdma_wrapper (
     .cfg_mgmt_write_data           (io_cfg_mgmt_write_data[31:0]     ), //i
     .cfg_mgmt_write                (io_cfg_mgmt_write                ), //i
     .cfg_mgmt_type1_cfg_reg_access (io_cfg_mgmt_type1_cfg_reg_access ), //i
-    .sys_clk                       (io_sys_clk                       ), //i
-    .sys_rst_n                     (io_sys_rst_n                     ), //i
+    .sys_clk                       (clk                              ), //i
+    .sys_rst_n                     (xdma_0_1_sys_rst_n               ), //i
     .user_lnk_up                   (xdma_0_1_user_lnk_up             ), //o
-    .pci_exp_rxn                   (io_pci_exp_rxn[3:0]              ), //i
-    .pci_exp_rxp                   (io_pci_exp_rxp[3:0]              ), //i
-    .pci_exp_txn                   (xdma_0_1_pci_exp_txn[3:0]        ), //o
-    .pci_exp_txp                   (xdma_0_1_pci_exp_txp[3:0]        ), //o
+    .pci_exp_rxn                   (io_pci_exp_rxn                   ), //i
+    .pci_exp_rxp                   (io_pci_exp_rxp                   ), //i
+    .pci_exp_txn                   (xdma_0_1_pci_exp_txn             ), //o
+    .pci_exp_txp                   (xdma_0_1_pci_exp_txp             ), //o
     .axi_aclk                      (xdma_0_1_axi_aclk                ), //o
     .axi_aresetn                   (xdma_0_1_axi_aresetn             ), //o
     .usr_irq_req                   (io_usr_irq_req                   ), //i
@@ -121,7 +123,7 @@ module xdma_wrapper (
     .msi_vector_width              (xdma_0_1_msi_vector_width[2:0]   ), //o
     .m_axi_awvalid                 (xdma_0_1_m_axi_awvalid           ), //o
     .m_axi_awready                 (io_m_axi_aw_ready                ), //i
-    .m_axi_awaddr                  (xdma_0_1_m_axi_awaddr[31:0]      ), //o
+    .m_axi_awaddr                  (xdma_0_1_m_axi_awaddr[63:0]      ), //o
     .m_axi_awid                    (xdma_0_1_m_axi_awid[3:0]         ), //o
     .m_axi_awlen                   (xdma_0_1_m_axi_awlen[7:0]        ), //o
     .m_axi_awsize                  (xdma_0_1_m_axi_awsize[2:0]       ), //o
@@ -131,8 +133,8 @@ module xdma_wrapper (
     .m_axi_awprot                  (xdma_0_1_m_axi_awprot[2:0]       ), //o
     .m_axi_wvalid                  (xdma_0_1_m_axi_wvalid            ), //o
     .m_axi_wready                  (io_m_axi_w_ready                 ), //i
-    .m_axi_wdata                   (xdma_0_1_m_axi_wdata[31:0]       ), //o
-    .m_axi_wstrb                   (xdma_0_1_m_axi_wstrb[3:0]        ), //o
+    .m_axi_wdata                   (xdma_0_1_m_axi_wdata[63:0]       ), //o
+    .m_axi_wstrb                   (xdma_0_1_m_axi_wstrb[7:0]        ), //o
     .m_axi_wlast                   (xdma_0_1_m_axi_wlast             ), //o
     .m_axi_bvalid                  (io_m_axi_b_valid                 ), //i
     .m_axi_bready                  (xdma_0_1_m_axi_bready            ), //o
@@ -140,7 +142,7 @@ module xdma_wrapper (
     .m_axi_bresp                   (io_m_axi_b_payload_resp[1:0]     ), //i
     .m_axi_arvalid                 (xdma_0_1_m_axi_arvalid           ), //o
     .m_axi_arready                 (io_m_axi_ar_ready                ), //i
-    .m_axi_araddr                  (xdma_0_1_m_axi_araddr[31:0]      ), //o
+    .m_axi_araddr                  (xdma_0_1_m_axi_araddr[63:0]      ), //o
     .m_axi_arid                    (xdma_0_1_m_axi_arid[3:0]         ), //o
     .m_axi_arlen                   (xdma_0_1_m_axi_arlen[7:0]        ), //o
     .m_axi_arsize                  (xdma_0_1_m_axi_arsize[2:0]       ), //o
@@ -150,11 +152,12 @@ module xdma_wrapper (
     .m_axi_arprot                  (xdma_0_1_m_axi_arprot[2:0]       ), //o
     .m_axi_rvalid                  (io_m_axi_r_valid                 ), //i
     .m_axi_rready                  (xdma_0_1_m_axi_rready            ), //o
-    .m_axi_rdata                   (io_m_axi_r_payload_data[31:0]    ), //i
+    .m_axi_rdata                   (io_m_axi_r_payload_data[63:0]    ), //i
     .m_axi_rid                     (io_m_axi_r_payload_id[3:0]       ), //i
     .m_axi_rresp                   (io_m_axi_r_payload_resp[1:0]     ), //i
     .m_axi_rlast                   (io_m_axi_r_payload_last          )  //i
   );
+  assign xdma_0_1_sys_rst_n = (! reset);
   assign io_cfg_mgmt_read_data = xdma_0_1_cfg_mgmt_read_data;
   assign io_cfg_mgmt_read_write_done = xdma_0_1_cfg_mgmt_read_write_done;
   assign io_user_lnk_up = xdma_0_1_user_lnk_up;

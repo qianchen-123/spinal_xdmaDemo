@@ -1,4 +1,4 @@
 Running: xsim.dir/xdma_wrapper_behav/xsimk.dll -nolog -wdb test.wdb
 Design successfully loaded
-Design Loading Memory Usage: 347572 KB (Peak: 347572 KB)
-Design Loading CPU Usage: 2671 ms
+Design Loading Memory Usage: 321336 KB (Peak: 321336 KB)
+Design Loading CPU Usage: 2171 ms

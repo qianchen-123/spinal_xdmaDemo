@@ -6,7 +6,7 @@
 <Project Version="7" Minor="56" Path="C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="421a50b0b08a4d1a91f2b99e5fd2ac46"/>
+    <Option Name="Id" Val="f2b2ab586b9f4866956feff2ca4bd64b"/>
     <Option Name="Part" Val="xc7k70tfbv676-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -85,6 +85,15 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/ip/c_addsub_0/c_addsub_0.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../xilinx_ip/xc7k70tfbv676-1/addsub/c_addsub_0.xci"/>
+          <Attr Name="ImportTime" Val="1661737544"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/ip/xdma_0/xdma_0.xci">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../xilinx_ip/xc7k70tfbv676-1/xdma_0.xci"/>
@@ -97,7 +106,7 @@
       <File Path="$PSRCDIR/sources_1/imports/job_1/xdma_wrapper.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../tmp/job_1/xdma_wrapper.v"/>
-          <Attr Name="ImportTime" Val="1661593264"/>
+          <Attr Name="ImportTime" Val="1661740208"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>

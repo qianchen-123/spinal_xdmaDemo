@@ -6,7 +6,6 @@
 [debug] 	xdmaTester$$anonfun$1$$anonfun$apply$mcV$sp$1.class
 [debug] 	xdmaTester$$anonfun$2.class
 [debug] 	xdmaTester.class
-[debug] 	xdmaTester$$anonfun$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$1.class
 [debug] We backup class files:
 [debug] 	xdmaTester$.class
 [debug] 	xdmaTester$$anonfun$2$$anonfun$apply$mcV$sp$2.class
@@ -14,10 +13,12 @@
 [debug] 	xdmaTester$$anonfun$1$$anonfun$apply$mcV$sp$1.class
 [debug] 	xdmaTester$$anonfun$2.class
 [debug] 	xdmaTester.class
-[debug] 	xdmaTester$$anonfun$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$1.class
 [debug] Registering generated classes:
-[debug] 	xdmaTester.class
 [debug] 	xdmaTester$.class
+[debug] 	xdmaTester$$anonfun$2$$anonfun$apply$mcV$sp$2.class
 [debug] 	xdmaTester$$anonfun$1.class
 [debug] 	xdmaTester$$anonfun$1$$anonfun$apply$mcV$sp$1.class
+[debug] 	xdmaTester$$anonfun$2.class
+[debug] 	xdmaTester.class
+[debug] 	xdmaTester$$anonfun$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$1.class
 [debug] Removing the temporary directory used for backing up class files: C:\Users\zzz\Desktop\spinal_xdmaDemo\target\scala-2.11\test-classes.bak

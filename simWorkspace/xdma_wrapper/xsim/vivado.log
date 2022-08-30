@@ -2,8 +2,8 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Sat Aug 27 17:22:33 2022
-# Process ID: 6232
+# Start of session at: Tue Aug 30 08:48:51 2022
+# Process ID: 16008
 # Current directory: C:/Users/zzz/Desktop/spinal_xdmaDemo/simWorkspace/xdma_wrapper/xsim
 # Command line: vivado.exe -mode batch -source C:/Users/zzz/Desktop/spinal_xdmaDemo/./simWorkspace/xdma_wrapper/xsim/spinal_xsim.tcl
 # Log file: C:/Users/zzz/Desktop/spinal_xdmaDemo/simWorkspace/xdma_wrapper/xsim/vivado.log
@@ -39,8 +39,9 @@ source C:/Users/zzz/Desktop/spinal_xdmaDemo/./simWorkspace/xdma_wrapper/xsim/spi
 #    return $fileList
 # }
 # create_project -force xdma_wrapper_xsim
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1250.941 ; gain = 0.000
 # import_files -force C:/Users/zzz/Desktop/spinal_xdmaDemo/tmp/job_1/xdma_wrapper.v
-# import_files -force -quiet [findFiles C:/Users/zzz/Desktop/spinal_xdmaDemo/xilinx_ip/xc7k70tfbv676-1 *.xci]
+# import_files -force -quiet [findFiles C:/Users/zzz/Desktop/spinal_xdmaDemo/xilinx_ip/xc7k70tfbv676-1/xdma *.xci]
 # import_files -force -quiet [findFiles C:/Users/zzz/Desktop/spinal_xdmaDemo *.bd]
 # update_compile_order -fileset sources_1
 # set_property top xdma_wrapper [get_fileset sim_1]
@@ -67,6 +68,6 @@ INFO: [USF-XSim-3] XSim::Elaborate design
 INFO: [USF-XSim-60] Script generated:C:/Users/zzz/Desktop/spinal_xdmaDemo/simWorkspace/xdma_wrapper/xsim/xdma_wrapper_xsim.sim/sim_1/behav/xsim/elaborate.bat
 INFO: [USF-XSim-4] XSim::Simulate design
 INFO: [USF-XSim-60] Script generated:C:/Users/zzz/Desktop/spinal_xdmaDemo/simWorkspace/xdma_wrapper/xsim/xdma_wrapper_xsim.sim/sim_1/behav/xsim/simulate.bat
-launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1261.609 ; gain = 0.000
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1250.941 ; gain = 0.000
 # close_project
-INFO: [Common 17-206] Exiting Vivado at Sat Aug 27 17:22:54 2022...
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 30 08:49:18 2022...

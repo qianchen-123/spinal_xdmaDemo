@@ -1,28 +1,36 @@
 [debug] [zinc] IncrementalCompile -----------
 [debug] IncrementalCompile.incrementalCompile
-[debug] previous = Stamps for: 15 products, 3 sources, 4 libraries
+[debug] previous = Stamps for: 14 products, 3 sources, 4 libraries
 [debug] current source = Set(${BASE}/src/test/scala/common/xdmaSimConfig.scala, ${BASE}/src/test/scala/counter/CounterTester.scala, ${BASE}/src/test/scala/xdma/xdmaTester.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/test/scala/xdma/xdmaTester.scala), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/test/scala/xdma/xdmaTester.scala), unmodified = ...),Set(${BASE}/target/scala-2.11/test-classes/xdma/xdmaTester$$anonfun$2$$anonfun$apply$mcV$sp$2.class),Set(),API Changes: Set(NamesChange(xdma.xdma_wrapper,ModifiedNames(changes = UsedName(xdma_0,[Default]), UsedName(sys_rst_n,[Default]), UsedName(io,[Default]), UsedName(sys_clk,[Default])))))
+[debug] The xdma.xdma_wrapper has the following regular definitions changed:
+[debug] 	UsedName(xdma_0,[Default]), UsedName(sys_rst_n,[Default]), UsedName(io,[Default]), UsedName(sys_clk,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) xdma.xdma_wrapper: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) xdma.xdma_wrapper.
+[debug] The following modified names cause invalidation of xdma.xdmaTester: [UsedName(io,[Default]), UsedName(sys_rst_n,[Default])]
 [debug] 
 [debug] Initial source changes:
 [debug] 	removed: Set()
 [debug] 	added: Set()
 [debug] 	modified: Set(${BASE}/src/test/scala/xdma/xdmaTester.scala)
-[debug] Invalidated products: Set()
-[debug] External API changes: API Changes: Set()
+[debug] Invalidated products: Set(${BASE}/target/scala-2.11/test-classes/xdma/xdmaTester$$anonfun$2$$anonfun$apply$mcV$sp$2.class)
+[debug] External API changes: API Changes: Set(NamesChange(xdma.xdma_wrapper,ModifiedNames(changes = UsedName(xdma_0,[Default]), UsedName(sys_rst_n,[Default]), UsedName(io,[Default]), UsedName(sys_clk,[Default]))))
 [debug] Modified binary dependencies: Set()
 [debug] Initial directly invalidated classes: Set(xdma.xdmaTester)
 [debug] Sources indirectly invalidated by:
-[debug] 	product: Set()
+[debug] 	product: Set(${BASE}/src/test/scala/xdma/xdmaTester.scala)
 [debug] 	binary dep: Set()
-[debug] 	external source: Set()
+[debug] 	external source: Set(xdma.xdmaTester)
 [debug] All initially invalidated classes: Set(xdma.xdmaTester)
 [debug] All initially invalidated sources:Set(${BASE}/src/test/scala/xdma/xdmaTester.scala)
 [debug] Initial set of included nodes: xdma.xdmaTester
 [debug] compilation cycle 1
 [info] compiling 1 Scala source to C:\Users\zzz\Desktop\spinal_xdmaDemo\target\scala-2.11\test-classes ...
 [debug] Getting org.scala-sbt:compiler-bridge_2.11:1.7.1:compile for Scala 2.11.12
-[debug] [zinc] Running cached compiler 68e911ca for Scala compiler version 2.11.12
+[debug] [zinc] Running cached compiler 6e3cec9c for Scala compiler version 2.11.12
 [debug] [zinc] The Scala compiler is invoked with:
 [debug] 	-Xplugin:C:\Users\zzz\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\spinalhdl\spinalhdl-idsl-plugin_2.11\1.7.2\spinalhdl-idsl-plugin_2.11-1.7.2.jar
 [debug] 	-bootclasspath
@@ -35,5 +43,5 @@
 [debug] Final step, transitive dependencies:
 [debug] 	Set()
 [debug] No classes were invalidated.
-[debug] Scala compilation took 0.5064996 s
+[debug] Scala compilation took 0.344036 s
 [info] done compiling

@@ -2,8 +2,8 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Sat Aug 27 17:41:06 2022
-# Process ID: 30960
+# Start of session at: Mon Aug 29 10:30:10 2022
+# Process ID: 19256
 # Current directory: C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim
 # Command line: vivado.exe -mode batch -source C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/spinal_xsim.tcl
 # Log file: C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/vivado.log
@@ -59,6 +59,7 @@ INFO: [SIM-utils-72] Using boost library from 'E:/xilinx/Vivado/2021.2/tps/boost
 INFO: [USF-XSim-7] Finding pre-compiled libraries...
 INFO: [USF-XSim-11] File 'E:/xilinx/Vivado/2021.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.sim/sim_1/behav/xsim'
 INFO: [SIM-utils-54] Inspecting design source files for 'xdma_wrapper' in fileset 'sim_1'...
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'c:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.gen/sources_1/ip/c_addsub_0/c_addsub_0.xml'
 INFO: [USF-XSim-97] Finding global include files...
 INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
@@ -67,6 +68,6 @@ INFO: [USF-XSim-3] XSim::Elaborate design
 INFO: [USF-XSim-60] Script generated:C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.sim/sim_1/behav/xsim/elaborate.bat
 INFO: [USF-XSim-4] XSim::Simulate design
 INFO: [USF-XSim-60] Script generated:C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/xdma_wrapper_xsim.sim/sim_1/behav/xsim/simulate.bat
-launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1261.121 ; gain = 0.000
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1261.141 ; gain = 0.000
 # close_project
-INFO: [Common 17-206] Exiting Vivado at Sat Aug 27 17:41:26 2022...
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 29 10:30:29 2022...

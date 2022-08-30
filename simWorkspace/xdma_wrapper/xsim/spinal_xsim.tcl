@@ -30,7 +30,7 @@ proc findFiles { basedir pattern } {
 
 create_project -force xdma_wrapper_xsim
 import_files -force C:/Users/zzz/Desktop/spinal_xdmaDemo/tmp/job_1/xdma_wrapper.v
-import_files -force -quiet [findFiles C:/Users/zzz/Desktop/spinal_xdmaDemo/xilinx_ip/xc7k70tfbv676-1 *.xci]
+import_files -force -quiet [findFiles C:/Users/zzz/Desktop/spinal_xdmaDemo/xilinx_ip/xc7k70tfbv676-1/xdma *.xci]
 import_files -force -quiet [findFiles C:/Users/zzz/Desktop/spinal_xdmaDemo *.bd]
 
 update_compile_order -fileset sources_1

@@ -2,8 +2,8 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Sat Aug 27 17:41:06 2022
-# Process ID: 30960
+# Start of session at: Mon Aug 29 10:30:10 2022
+# Process ID: 19256
 # Current directory: C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim
 # Command line: vivado.exe -mode batch -source C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/spinal_xsim.tcl
 # Log file: C:/Users/zzz/Desktop/spinal_xdmaDemo/waves/xdma_wrapper/xsim/vivado.log
